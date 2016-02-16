@@ -1,0 +1,140 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* LICENSE.TXT
+* README.md
+* TeamCityDownloader.iml
+* apk/
+* apk/TeamCityDownloader.apk
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* java/
+* java/com/
+* java/com/raidzero/
+* java/com/raidzero/teamcitydownloader/
+* java/com/raidzero/teamcitydownloader/activities/
+* java/com/raidzero/teamcitydownloader/activities/AboutServerActivity.java
+* java/com/raidzero/teamcitydownloader/activities/ArtifactsBrowserActivity.java
+* java/com/raidzero/teamcitydownloader/activities/BuildConfigsListActivity.java
+* java/com/raidzero/teamcitydownloader/activities/BuildInfoActivity.java
+* java/com/raidzero/teamcitydownloader/activities/BuildsListActivity.java
+* java/com/raidzero/teamcitydownloader/activities/ConfigErrorActivity.java
+* java/com/raidzero/teamcitydownloader/activities/ControllerActivity.java
+* java/com/raidzero/teamcitydownloader/activities/DownloadActivity.java
+* java/com/raidzero/teamcitydownloader/activities/DownloadsListActivity.java
+* java/com/raidzero/teamcitydownloader/activities/FavoritesActivity.java
+* java/com/raidzero/teamcitydownloader/activities/MainActivity.java
+* java/com/raidzero/teamcitydownloader/activities/SelectProjectsActivity.java
+* java/com/raidzero/teamcitydownloader/activities/TeamCityActivity.java
+* java/com/raidzero/teamcitydownloader/activities/UnknownSourcesActivity.java
+* java/com/raidzero/teamcitydownloader/activities/WelcomeActivity.java
+* java/com/raidzero/teamcitydownloader/activities/settings/
+* java/com/raidzero/teamcitydownloader/activities/settings/SettingsAppearanceActivity.java
+* java/com/raidzero/teamcitydownloader/activities/settings/SettingsGeneralActivity.java
+* java/com/raidzero/teamcitydownloader/activities/settings/SettingsMainActivity.java
+* java/com/raidzero/teamcitydownloader/activities/settings/SettingsServerActivity.java
+* java/com/raidzero/teamcitydownloader/adapters/
+* java/com/raidzero/teamcitydownloader/adapters/AppRevisionAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/ArtifactAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/BuildAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/ConfigErrorAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/DownloadedFileAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/ItemAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/NavigationItemAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/ProjectAdapter.java
+* java/com/raidzero/teamcitydownloader/adapters/WelcomeTabsPagerAdapter.java
+* java/com/raidzero/teamcitydownloader/data/
+* java/com/raidzero/teamcitydownloader/data/AppRevision.java
+* java/com/raidzero/teamcitydownloader/data/DownloadRequest.java
+* java/com/raidzero/teamcitydownloader/data/DownloadedFile.java
+* java/com/raidzero/teamcitydownloader/data/NavigationMenuItem.java
+* java/com/raidzero/teamcitydownloader/data/TeamCityArtifact.java
+* java/com/raidzero/teamcitydownloader/data/TeamCityBuild.java
+* java/com/raidzero/teamcitydownloader/data/TeamCityItem.java
+* java/com/raidzero/teamcitydownloader/data/TeamCityProject.java
+* java/com/raidzero/teamcitydownloader/data/TeamCityServer.java
+* java/com/raidzero/teamcitydownloader/data/WebResponse.java
+* java/com/raidzero/teamcitydownloader/fragments/
+* java/com/raidzero/teamcitydownloader/fragments/BaseTeamCityFragment.java
+* java/com/raidzero/teamcitydownloader/fragments/NavigationDrawerFragment.java
+* java/com/raidzero/teamcitydownloader/fragments/ProjectsListFragment.java
+* java/com/raidzero/teamcitydownloader/fragments/QuickStartFragment.java
+* java/com/raidzero/teamcitydownloader/fragments/WhatsNewFragment.java
+* java/com/raidzero/teamcitydownloader/fragments/settings/
+* java/com/raidzero/teamcitydownloader/fragments/settings/SettingsFragmentAppearance.java
+* java/com/raidzero/teamcitydownloader/fragments/settings/SettingsFragmentGeneral.java
+* java/com/raidzero/teamcitydownloader/fragments/settings/SettingsFragmentMain.java
+* java/com/raidzero/teamcitydownloader/fragments/settings/SettingsFragmentServer.java
+* java/com/raidzero/teamcitydownloader/global/
+* java/com/raidzero/teamcitydownloader/global/AppHelper.java
+* java/com/raidzero/teamcitydownloader/global/BrowserUtility.java
+* java/com/raidzero/teamcitydownloader/global/Common.java
+* java/com/raidzero/teamcitydownloader/global/DateUtility.java
+* java/com/raidzero/teamcitydownloader/global/Debug.java
+* java/com/raidzero/teamcitydownloader/global/DialogUtility.java
+* java/com/raidzero/teamcitydownloader/global/DownloadHelper.java
+* java/com/raidzero/teamcitydownloader/global/DownloadObserver.java
+* java/com/raidzero/teamcitydownloader/global/FileUtility.java
+* java/com/raidzero/teamcitydownloader/global/GlobalUtil.java
+* java/com/raidzero/teamcitydownloader/global/QueryUtility.java
+* java/com/raidzero/teamcitydownloader/global/Regex.java
+* java/com/raidzero/teamcitydownloader/global/TeamCityXmlParser.java
+* java/com/raidzero/teamcitydownloader/global/ThemeUtility.java
+* java/com/raidzero/teamcitydownloader/global/TimePreference.java
+* java/com/raidzero/teamcitydownloader/receivers/
+* java/com/raidzero/teamcitydownloader/receivers/BootReceiver.java
+* java/com/raidzero/teamcitydownloader/receivers/ServerUpdateReceiver.java
+* java/com/raidzero/teamcitydownloader/services/
+* java/com/raidzero/teamcitydownloader/services/DownloadService.java
+* java/com/raidzero/teamcitydownloader/services/NotificationService.java
+* java/com/raidzero/teamcitydownloader/tasks/
+* java/com/raidzero/teamcitydownloader/tasks/DownloadTask.java
+* java/com/raidzero/teamcitydownloader/tasks/QueryBuildIdsTask.java
+* java/com/raidzero/teamcitydownloader/tasks/TeamCityTask.java
+* stats.sh
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
